@@ -1,0 +1,29 @@
+---
+title: "SEMANA 3 VECTOR ,  PROMEDIO Y DESVIACION"
+author: "ABURTO UCEDA NORA EVELYN"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+paciente <- c ("Paciente 1" , "Paciente 2","Paciente 3", "Paciente 4" , "Paciente 5","Paciente 6 " , "Paciente 7" , "Paciente 8" ,
+"Paciente 9","Paciente 10")
+```
+
+You can add options to executable code like this
+
+```{r}
+"frecuencia respiratoria" <- c (18, 30 , 60 , 50 ,40 )
+```
+
+```{r}
+datos <- data.frame(paciente , "frecuencia_respiratoria")
+```
